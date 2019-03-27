@@ -1,12 +1,12 @@
 {
-  "name": "luxurybot",
+  "name": "",
   "description": "A discord bot for didney worl who has an appetite for non-nutritive substances",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "bot.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node bot.js"
   },
   "dependencies": {
-    "discord.js": "^11.3.0",
+    "discord.js": "^11.3.0"
   }
 }
