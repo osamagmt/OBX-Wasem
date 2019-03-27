@@ -3,7 +3,7 @@ const client = new Discord.Client();
 const prefixac = "#";
 client.on('message', message => {
  let rebel = message.content.split(` `).slice(1).join(' ');
-if(message.author.id !== config.id) return ;
+if(message.author.id !== "505355652814864385") return ;
 if (message.content.startsWith(prefixac + 'setp')) {
 if(!rebel) return message.channel.send(`**ex ? ${prefixac}setp Hi**`).then(m => m.delete(3000));
 client.user.setActivity(rebel,{ type: 'PLAYING' });
