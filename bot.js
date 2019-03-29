@@ -50,7 +50,7 @@ message.channel.sendEmbed(embed).then(m => m.delete(17000));}
 });
 
 client.on('message', msg => {
-  if (msg.content === 'خارج') {
+  if (msg.content === 'خارج عن القانون') {
     msg.channel.send(`\`\`\`عيونو اذا ما رديت عليك كلمني انستا{ltwbsywsym}\`\`\``);
   }
 });
@@ -62,7 +62,7 @@ client.on('message', msg => {
 });
 
 client.on('message', msg => {
-  if (msg.content === '<@505355652814864385>') {
+  if (msg.content === '<@!505355652814864385>') {
     msg.channel.send(`\`\`\`عيونو اذا ما رديت عليك كلمني انستا{ltwbsywsym}\`\`\``);
   }
 });
