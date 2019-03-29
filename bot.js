@@ -14,7 +14,7 @@ client.user.setActivity(rebel, { type: 'LISTENING' });
 message.channel.send("**تـــ تغيير الحالة ــم**");}
 if (message.content.startsWith(prefixac + 'sets')) {
 if(!rebel) return message.channel.send(`**ex ? ${prefixac}sets Hi**`).then(m => m.delete(3000));
-client.user.setActivity(rebel, { type: 'STREAMING', url:'https://twitch.tv/rebel711' });
+client.user.setActivity(rebel, { type: 'STREAMING', url:'https://twitch.tv/osamagmt' });
 message.channel.send("**تـــ تغيير الحالة ــم**");}     
 if (message.content.startsWith(prefixac + 'setw')) {
 if(!rebel) return message.channel.send(`**ex ? ${prefixac}setw Hi**`).then(m => m.delete(3000));
@@ -56,6 +56,12 @@ client.on('message', msg => {
 });
 
 client.on('message', msg => {
+  if (msg.content === '@Honest | Wasem#4766') {
+    msg.channel.send(`\`\`\`عيونو اذا ما رديت عليك كلمني انستا{ltwbsywsym}\`\`\``);
+  }
+});Honest | Wasem#4766
+
+client.on('message', msg => {
   if (msg.content === 'وسيم') {
     msg.channel.send(`\`\`\`عيونو اذا ما رديت عليك كلمني انستا{ltwbsywsym}\`\`\``);
   }
@@ -63,6 +69,12 @@ client.on('message', msg => {
 
 client.on('message', msg => {
   if (msg.content === '<@!505355652814864385>') {
+    msg.channel.send(`\`\`\`عيونو اذا ما رديت عليك كلمني انستا{ltwbsywsym}\`\`\``);
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === '<@505355652814864385>') {
     msg.channel.send(`\`\`\`عيونو اذا ما رديت عليك كلمني انستا{ltwbsywsym}\`\`\``);
   }
 });
