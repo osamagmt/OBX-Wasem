@@ -59,7 +59,7 @@ client.on('message', msg => {
   if (msg.content === '@Honest | Wasem#4766') {
     msg.channel.send(`\`\`\`عيونو اذا ما رديت عليك كلمني انستا{ltwbsywsym}\`\`\``);
   }
-});Honest | Wasem#4766
+});
 
 client.on('message', msg => {
   if (msg.content === 'وسيم') {
